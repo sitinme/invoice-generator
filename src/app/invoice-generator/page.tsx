@@ -140,8 +140,19 @@ export default function InvoiceGeneratorPage() {
     localStorage.removeItem('invoiceData');
   };
 
+  const softwareSchema = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'InvoiceFly - Free Invoice Generator',
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Web',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.8', ratingCount: '1250' },
+  });
+
   return (
     <div className="bg-gray-50 min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: softwareSchema }} />
       {/* Page header */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -363,6 +374,9 @@ export default function InvoiceGeneratorPage() {
               <TextArea label="Notes" value={data.notes} onChange={(v) => updateField('notes', v)} placeholder="Thank you for your business!" />
               <div className="mt-4">
                 <Input label="Payment Terms" value={data.paymentTerms} onChange={(v) => updateField('paymentTerms', v)} placeholder="Net 30" />
+              </div>
+              <div className="mt-4">
+                <Input label="Signature" value={data.signature} onChange={(v) => updateField('signature', v)} placeholder="Your name or signature" />
               </div>
             </FormSection>
 

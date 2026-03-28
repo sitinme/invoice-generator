@@ -121,6 +121,18 @@ export default function InvoicePreviewHTML({ data, template }: Props) {
           <p className="text-gray-700 text-xs whitespace-pre-line">{data.notes}</p>
         </div>
       )}
+
+      {/* Signature */}
+      {data.signature && (
+        <div className="mt-8 flex justify-end">
+          <div className="text-right">
+            <div className="border-b border-gray-400 pb-1 mb-1 min-w-[160px]">
+              <span className="text-sm italic text-gray-800">{data.signature}</span>
+            </div>
+            <span className="text-xs text-gray-500">Authorized Signature</span>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

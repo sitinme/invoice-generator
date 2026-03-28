@@ -35,6 +35,7 @@ export interface InvoiceData {
 
   notes: string;
   paymentTerms: string;
+  signature: string;
 }
 
 export interface AffiliateProduct {

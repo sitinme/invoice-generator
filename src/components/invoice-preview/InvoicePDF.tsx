@@ -136,6 +136,15 @@ export default function InvoicePDF({ data, template }: Props) {
             <Text style={{ fontSize: 9, color: '#374151' }}>{data.notes}</Text>
           </View>
         ) : null}
+
+        {/* Signature */}
+        {data.signature ? (
+          <View style={{ marginTop: 30, alignItems: 'flex-end' }}>
+            <Text style={{ fontSize: 12, fontStyle: 'italic', color: '#1f2937', marginBottom: 4 }}>{data.signature}</Text>
+            <View style={{ borderBottom: '1px solid #9ca3af', width: 160, marginBottom: 4 }} />
+            <Text style={{ fontSize: 8, color: '#9ca3af' }}>Authorized Signature</Text>
+          </View>
+        ) : null}
       </Page>
     </Document>
   );

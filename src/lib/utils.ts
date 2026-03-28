@@ -100,5 +100,6 @@ export function getDefaultInvoiceData(): InvoiceData {
 
     notes: '',
     paymentTerms: 'Net 30',
+    signature: '',
   };
 }
