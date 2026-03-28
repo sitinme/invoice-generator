@@ -1,0 +1,110 @@
+[
+  {
+    "name": "FreshBooks",
+    "slug": "freshbooks",
+    "url": "https://www.freshbooks.com",
+    "description": "Cloud-based accounting software designed for small business owners. FreshBooks makes invoicing, expense tracking, and time tracking incredibly easy.",
+    "rating": 4.5,
+    "price": "From $8.50/mo",
+    "features": [
+      "Automated invoicing & payments",
+      "Expense tracking",
+      "Time tracking",
+      "Financial reports",
+      "Mobile app",
+      "Multi-currency support"
+    ],
+    "pros": [
+      "Extremely user-friendly interface",
+      "Excellent customer support",
+      "Great mobile experience",
+      "Automated payment reminders"
+    ],
+    "cons": [
+      "Limited users on lower plans",
+      "No inventory tracking",
+      "Higher price for advanced features"
+    ]
+  },
+  {
+    "name": "QuickBooks Online",
+    "slug": "quickbooks",
+    "url": "https://quickbooks.intuit.com",
+    "description": "The industry-leading accounting platform trusted by millions of businesses. QuickBooks offers comprehensive invoicing, bookkeeping, and tax preparation tools.",
+    "rating": 4.3,
+    "price": "From $15/mo",
+    "features": [
+      "Professional invoicing",
+      "Bank reconciliation",
+      "Tax preparation",
+      "Inventory management",
+      "Payroll integration",
+      "350+ app integrations"
+    ],
+    "pros": [
+      "Most widely used accounting software",
+      "Extensive integrations",
+      "Powerful reporting",
+      "Scalable for growing businesses"
+    ],
+    "cons": [
+      "Steeper learning curve",
+      "Can be expensive for small teams",
+      "Customer support varies"
+    ]
+  },
+  {
+    "name": "Zoho Invoice",
+    "slug": "zoho",
+    "url": "https://www.zoho.com/invoice/",
+    "description": "Part of the Zoho ecosystem, Zoho Invoice offers free invoicing for freelancers and small businesses with powerful automation features.",
+    "rating": 4.4,
+    "price": "Free plan available",
+    "features": [
+      "Unlimited invoices (free plan)",
+      "Automated payment reminders",
+      "Multi-currency & multi-language",
+      "Client portal",
+      "Time tracking",
+      "Zoho ecosystem integration"
+    ],
+    "pros": [
+      "Generous free plan",
+      "Great Zoho ecosystem integration",
+      "Multi-language support",
+      "Customizable templates"
+    ],
+    "cons": [
+      "UI can feel complex",
+      "Limited standalone features",
+      "Best value within Zoho ecosystem"
+    ]
+  },
+  {
+    "name": "Wave",
+    "slug": "wave",
+    "url": "https://www.waveapps.com",
+    "description": "Completely free accounting and invoicing software for small businesses. Wave offers unlimited invoicing, receipt scanning, and financial reporting at no cost.",
+    "rating": 4.2,
+    "price": "Free",
+    "features": [
+      "Unlimited free invoicing",
+      "Receipt scanning",
+      "Financial reports",
+      "Bank connections",
+      "Payment processing",
+      "Payroll (paid add-on)"
+    ],
+    "pros": [
+      "Completely free core features",
+      "No user limits",
+      "Easy to set up",
+      "Great for solopreneurs"
+    ],
+    "cons": [
+      "Limited integrations",
+      "No inventory management",
+      "Payment processing fees apply"
+    ]
+  }
+]
